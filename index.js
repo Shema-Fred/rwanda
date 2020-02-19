@@ -2,7 +2,7 @@ const datafile = require("./data/provinces");
 
 const formatInput = name => {
   return name && name.length > 2
-    ? name.charAt(0).toUpperCase() + name.substring(1).toLowerCase()
+    ? name.charAt(0).toUpperCase() + name.substring(1)
     : undefined;
 };
 
